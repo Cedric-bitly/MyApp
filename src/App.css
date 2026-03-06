@@ -126,3 +126,29 @@
   margin: 20px;
   border-radius: 10px;
 }
+
+.notFound{
+  font-size: 24px;
+  color: red;
+  font-weight: 900;
+}
+nav {
+  display: flex;
+  gap: 10px;
+  background-color: #333;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: yellow;
+}
